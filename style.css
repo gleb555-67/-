@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inter', sans-serif; /* Семейство шрифтов с fallback */
+    font-size: 11px; /* Размер основного шрифта */
+    background-color: #5988FF; /* Цвет фона веб-страницы */
+    color: #FFFFFF; /* Цвет основного текста */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.4;
+    
+}
+
+
+
+h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-bottom: 16px;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    animation: color-change 7s infinite;
+}
+
+h2 {
+    
+    color: #FFFFFF;
+    font-size: 20px; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+h2:hover {
+    animation: color-change 7s infinite;
+}
+
+/* Анимация для hover эффекта */
+@keyframes color-change {
+    0% { color: #FFFFFF; }
+    50% { color: #ffc0cb; } /* Золотой цвет */
+    100% { color: #FFFFFF; }
+}
+
+
